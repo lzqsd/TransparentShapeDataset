@@ -7,3 +7,6 @@ Followings are the links to our dataset, to understand the data structure of our
 * [Shapes](http://cseweb.ucsd.edu/~viscomp/projects/CVPR20Transparent/dataset/Shapes.zip)
   * The geometry used to create the dataset. 
 * [Images10](http://cseweb.ucsd.edu/~viscomp/projects/CVPR20Transparent/dataset/Sh.zip)
+
+## Qualitative Comparisons
+To reproduce the qualitative number of shape reconstruction in our paper, you can download the dataset and run `testMesh.py` with `--dataRoot` and `--camNum` set properly. Please let us know if you have any questions running the code. 
