@@ -15,5 +15,5 @@ Followings are the links to our dataset, to understand the data structure of our
 * Envmap
   * We use the [Laval Indoor Lighting Dataset](http://indoor.hdrdb.com/) to render our data. Unfortunately, we are not supposed to redistribute the dataset. We have actually rescaled and renamed the environment maps when creating our data. We will release the code to tell you how to transform the original environment maps to the our environment maps used for rendering in the near future. 
 
-## Qualitative Comparisons
+## Quantitative Comparisons
 To reproduce the quantitative number of shape reconstruction in our paper, you can download the dataset and run `testMesh.py` from this [link](https://github.com/lzqsd/TransparentShapeReconstruction) with `--dataRoot` and `--camNum` set properly. Please let us know if you have any questions running the code. 
