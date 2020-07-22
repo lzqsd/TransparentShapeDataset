@@ -13,7 +13,7 @@ Followings are the links to our dataset, to understand the data structure of our
 * [Images20](http://cseweb.ucsd.edu/~viscomp/projects/CVPR20Transparent/dataset/Images20.zip)
   * The rendered images, two-bounce normal and the final reconstructed meshes of the 20-view reconstruction. 
 * Envmap
-  * We use the [Laval Indoor Lighting Dataset](http://indoor.hdrdb.com/) to render our data. Unfortunately, we are not supposed to redistribute the dataset. We have actually rescaled and renamed the environment maps when creating our data. The `infoList.dat` and `` 
+  * We use the [Laval Indoor Lighting Dataset](http://indoor.hdrdb.com/) to render our data. Unfortunately, we are not supposed to redistribute the dataset. We have actually rescaled and renamed the environment maps when creating our data. The `infoList.dat` and `mapEnvmaps.py` can be used to map the original environment maps to our environment maps used for rendering.  
 
 ## Quantitative Comparisons
 To reproduce the quantitative number of shape reconstruction in our paper, you can download the dataset and run `testMesh.py` from this [link](https://github.com/lzqsd/TransparentShapeReconstruction) with `--dataRoot` and `--camNum` set properly. Please let us know if you have any questions running the code. 
